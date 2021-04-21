@@ -54,7 +54,7 @@ namespace BasicBilling.API.Engine
         internal static bool ValidPeriod(int period, IBillRepository billRepo)
         {
             if (period.ToString().Length != 6 ) return false;
-            if (billRepo.GetBillByPeriod(period) == null) return false;
+            if (billRepo.GetBillByPeriod(period) != null) return false;
             return true;
         }
 

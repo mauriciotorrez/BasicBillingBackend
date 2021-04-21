@@ -11,7 +11,7 @@ namespace IntegrationTest
     public class TestBasicBillingDBContext : DbContext, IBasicBillingDBContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder options)
-    => options.UseSqlite(@"Data Source=D:\BasicBillingDB.db");
+    => options.UseSqlite(@"Data Source=D:\BasicBillingDBTest.db");
         public DbSet<Bill> Bills { get; set; }
         public DbSet<Payment> Payments { get; set; }
         public DbSet<Client> Clients { get; set; }

@@ -168,7 +168,7 @@ namespace BasicBilling.Tests
             _billMock.Setup(billRepo => billRepo.GetPendingBillsByClientId(1))
                 .Returns(new List<Bill> { bill });
 
-            _billMock.Setup(billRepo => billRepo.GetBillByPeriod(202102))
+            _billMock.Setup(billRepo => billRepo.GetBillByPeriod(202103))
                 .Returns( bill );
 
             _BillStatusMock.Setup(repo => repo.GetBillStatus(1))
@@ -222,7 +222,7 @@ namespace BasicBilling.Tests
             _billMock.Setup(billRepo => billRepo.GetPendingBillsByClientId(1))
                 .Returns(new List<Bill> { bill });
 
-            _billMock.Setup(billRepo => billRepo.GetBillByPeriod(202103))
+            _billMock.Setup(billRepo => billRepo.GetBillByPeriod(202101))
                 .Returns(bill);
 
             _billMock.Setup(billRepo => billRepo.GetBills())

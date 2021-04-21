@@ -17,7 +17,6 @@ namespace IntegrationTest
 {
     public class BasicBillingIntetrationTest : IDisposable
     {
-        //private const TestBasicBillingDBContext contextTest = new TestBasicBillingDBContext();
         private Mock<ILogger<BillingController>> _logerMock = new Mock<ILogger<BillingController>>(); 
         private TestBillDbSet _testBillRepo = new TestBillDbSet(new TestBasicBillingDBContext());
         private TestBillStatusDbSet _testBillStatusRepo = new TestBillStatusDbSet(new TestBasicBillingDBContext());
@@ -42,15 +41,7 @@ namespace IntegrationTest
 
         public void Dispose()
         {
-            _testBillRepo.Delete(testPendingBill.BillId);
-            _testPaymentRepo.Delete(testPaymentCatWater.PayId);
-            foreach (var client in _testClientRepo.GetClients())
-            {
-                foreach (var bill in _testBillRepo.GetPendingBillsByClientId(client.ClientId))
-                {
-                    _testBillRepo.Delete(bill.BillId);
-                }                
-            }
+
         }
 
         [Fact]
@@ -139,6 +130,8 @@ namespace IntegrationTest
         public void PostBills_ShouldRegisterNewBillForAllClients()
         {
             //Arange
+            CleanData();
+            //_testBillRepo.Add(testPendingBill);
 
             var billingController = new BillingController(_logerMock.Object,
                 _testBillRepo,
@@ -157,6 +150,19 @@ namespace IntegrationTest
             (_testBillRepo.GetPendingBillsByClientId(1))
                 .Should().NotBeEmpty()
                 .And.Contain(x => x.Period == testPendingBill.Period);
+        }
+
+        private void CleanData()
+        {
+            _testBillRepo.Delete(testPendingBill.BillId);
+            _testPaymentRepo.Delete(testPaymentCatWater.PayId);
+            foreach (var client in _testClientRepo.GetClients())
+            {
+                foreach (var bill in _testBillRepo.GetPendingBillsByClientId(client.ClientId))
+                {
+                    _testBillRepo.Delete(bill.BillId);
+                }
+            }
         }
     }
 }

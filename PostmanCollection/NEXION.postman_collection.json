@@ -1,0 +1,124 @@
+{
+	"info": {
+		"_postman_id": "ec7f9d81-0d5c-4cb7-98a1-68273f90d045",
+		"name": "NEXION",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Billing-API",
+			"item": [
+				{
+					"name": "Create billing",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"period\": 202002,\n    \"category\": \"SEWER\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/billing/bills",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"billing",
+								"bills"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "pending",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/billing/pending?ClientId=3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"billing",
+								"pending"
+							],
+							"query": [
+								{
+									"key": "ClientId",
+									"value": "3"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "pay",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"clientId\": 3,\r\n    \"period\": 202001,\r\n    \"category\": \"WATER\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/billing/pay",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"billing",
+								"pay"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/billing/search?category=ELECTRICITY",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"billing",
+								"search"
+							],
+							"query": [
+								{
+									"key": "category",
+									"value": "ELECTRICITY"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

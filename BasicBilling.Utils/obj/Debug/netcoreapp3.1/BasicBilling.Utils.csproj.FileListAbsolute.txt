@@ -1,0 +1,15 @@
+D:\Projects\PERSONAL\nexion\backend\BasicBilling.Utils\bin\Debug\netcoreapp3.1\BasicBilling.Utils.deps.json
+D:\Projects\PERSONAL\nexion\backend\BasicBilling.Utils\bin\Debug\netcoreapp3.1\BasicBilling.Utils.dll
+D:\Projects\PERSONAL\nexion\backend\BasicBilling.Utils\bin\Debug\netcoreapp3.1\BasicBilling.Utils.pdb
+D:\Projects\PERSONAL\nexion\backend\BasicBilling.Utils\obj\Debug\netcoreapp3.1\BasicBilling.Utils.AssemblyInfoInputs.cache
+D:\Projects\PERSONAL\nexion\backend\BasicBilling.Utils\obj\Debug\netcoreapp3.1\BasicBilling.Utils.AssemblyInfo.cs
+D:\Projects\PERSONAL\nexion\backend\BasicBilling.Utils\obj\Debug\netcoreapp3.1\BasicBilling.Utils.csproj.CoreCompileInputs.cache
+D:\Projects\PERSONAL\nexion\backend\BasicBilling.Utils\obj\Debug\netcoreapp3.1\BasicBilling.Utils.dll
+D:\Projects\PERSONAL\nexion\backend\BasicBilling.Utils\obj\Debug\netcoreapp3.1\BasicBilling.Utils.pdb
+D:\Projects\PERSONAL\nexion\backend\BasicBilling.Utils\obj\Debug\netcoreapp3.1\BasicBilling.Utils.csprojAssemblyReference.cache
+D:\Projects\PERSONAL\nexion\backend\BasicBilling.Utils\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Projects\PERSONAL\nexion\backend\BasicBilling.Utils\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Projects\PERSONAL\nexion\backend\BasicBilling.Utils\bin\Debug\netcoreapp3.1\BasicBilling.API.exe
+D:\Projects\PERSONAL\nexion\backend\BasicBilling.Utils\bin\Debug\netcoreapp3.1\BasicBilling.API.dll
+D:\Projects\PERSONAL\nexion\backend\BasicBilling.Utils\bin\Debug\netcoreapp3.1\BasicBilling.API.pdb
+D:\Projects\PERSONAL\nexion\backend\BasicBilling.Utils\obj\Debug\netcoreapp3.1\BasicBilling.Utils.csproj.CopyComplete

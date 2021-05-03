@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zgaJlkn99GXKxiqQewZofZYMYUM6ClBOvOdwOcW/HxvYXlDISkU9WN4oLppLn31ZMpf6jD7zA2o/QOSlV+S90w==",
+  "dgSpecHash": "M8eR5FjX9FBpjJcdFXq2/MQogB10ayiQS4xd0wKGDape89xtWB4Z3nPw8V2b19E1Y3g0uA+UJ2ZQLQ3g0+AWSA==",
   "success": true,
-  "projectFilePath": "d:\\Projects\\PERSONAL\\nexion\\backend\\BasicBillingBackend\\BasicBilling.API\\BasicBilling.API.csproj",
+  "projectFilePath": "D:\\Projects\\PERSONAL\\nexion\\backend\\BasicBillingBackend\\BasicBilling.API\\BasicBilling.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mauri\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.14\\microsoft.aspnetcore.authentication.jwtbearer.3.1.14.nupkg.sha512",
     "C:\\Users\\Mauri\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\3.1.14\\microsoft.aspnetcore.authentication.openidconnect.3.1.14.nupkg.sha512",

@@ -82,13 +82,14 @@ namespace BasicBilling.API.Controllers
         public HttpResponseMessage Bills(BillRequest bill)
         {
             HttpResponseMessage response = null;
-            string message = string.Empty;
-            if (!Helper.ValidPeriod(bill.Period, _billRepo)) throw new ArgumentException("Invalid Period");
-            var cat = _categoryRepo.GetCategoryByName(bill.Category) ?? throw new ArgumentException("Invalid Category");
-            var clients = _clientRepo.GetClients();            
+            string message = string.Empty;           
 
             try 
             {
+                if (!Helper.ValidPeriod(bill.Period, _billRepo)) throw new ArgumentException("Invalid Period");
+                var cat = _categoryRepo.GetCategoryByName(bill.Category) ?? throw new ArgumentException("Invalid Category");
+                var clients = _clientRepo.GetClients();
+
                 foreach (var client in clients)
                 {
                     _billRepo.Add(
@@ -125,11 +126,12 @@ namespace BasicBilling.API.Controllers
         {
             HttpResponseMessage response = null;
             string message = string.Empty;            
-            var cat = _categoryRepo.GetCategoryByName(payment.Category);
-            if (!Helper.ValidPeriodToPay(payment.Period, _billRepo)) throw new ArgumentException("Invalid Period");
-
+            
             try
             {
+                var cat = _categoryRepo.GetCategoryByName(payment.Category);
+                if (!Helper.ValidPeriodToPay(payment.Period, _billRepo)) throw new ArgumentException("Invalid Period");
+
                 var bill = _billRepo.GetBills().Where(b => 
                 (b.Client_Id == payment.ClientId && cat.CategoryId == b.Category_Id && b.Period == payment.Period)).FirstOrDefault();
                 _ = bill ?? throw new Exception("Bill not found");

@@ -8725,11 +8725,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Projects\\PERSONAL\\nexion\\backend\\BasicBillingBackend\\BasicBilling.Tests\\BasicBilling.Tests.csproj",
+      "projectUniqueName": "D:\\Projects\\PERSONAL\\nexion\\backend\\BasicBillingBackend\\BasicBilling.Tests\\BasicBilling.Tests.csproj",
       "projectName": "BasicBilling.Tests",
-      "projectPath": "d:\\Projects\\PERSONAL\\nexion\\backend\\BasicBillingBackend\\BasicBilling.Tests\\BasicBilling.Tests.csproj",
+      "projectPath": "D:\\Projects\\PERSONAL\\nexion\\backend\\BasicBillingBackend\\BasicBilling.Tests\\BasicBilling.Tests.csproj",
       "packagesPath": "C:\\Users\\Mauri\\.nuget\\packages\\",
-      "outputPath": "d:\\Projects\\PERSONAL\\nexion\\backend\\BasicBillingBackend\\BasicBilling.Tests\\obj\\",
+      "outputPath": "D:\\Projects\\PERSONAL\\nexion\\backend\\BasicBillingBackend\\BasicBilling.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mauri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8746,8 +8746,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "d:\\Projects\\PERSONAL\\nexion\\backend\\BasicBillingBackend\\BasicBilling.API\\BasicBilling.API.csproj": {
-              "projectPath": "d:\\Projects\\PERSONAL\\nexion\\backend\\BasicBillingBackend\\BasicBilling.API\\BasicBilling.API.csproj"
+            "D:\\Projects\\PERSONAL\\nexion\\backend\\BasicBillingBackend\\BasicBilling.API\\BasicBilling.API.csproj": {
+              "projectPath": "D:\\Projects\\PERSONAL\\nexion\\backend\\BasicBillingBackend\\BasicBilling.API\\BasicBilling.API.csproj"
             }
           }
         }
@@ -8806,6 +8806,9 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

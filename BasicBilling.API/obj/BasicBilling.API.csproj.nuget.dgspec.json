@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Projects\\PERSONAL\\nexion\\backend\\BasicBillingBackend\\BasicBilling.API\\BasicBilling.API.csproj": {}
+    "D:\\Projects\\PERSONAL\\nexion\\backend\\BasicBillingBackend\\BasicBilling.API\\BasicBilling.API.csproj": {}
   },
   "projects": {
-    "d:\\Projects\\PERSONAL\\nexion\\backend\\BasicBillingBackend\\BasicBilling.API\\BasicBilling.API.csproj": {
+    "D:\\Projects\\PERSONAL\\nexion\\backend\\BasicBillingBackend\\BasicBilling.API\\BasicBilling.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Projects\\PERSONAL\\nexion\\backend\\BasicBillingBackend\\BasicBilling.API\\BasicBilling.API.csproj",
+        "projectUniqueName": "D:\\Projects\\PERSONAL\\nexion\\backend\\BasicBillingBackend\\BasicBilling.API\\BasicBilling.API.csproj",
         "projectName": "BasicBilling.API",
-        "projectPath": "d:\\Projects\\PERSONAL\\nexion\\backend\\BasicBillingBackend\\BasicBilling.API\\BasicBilling.API.csproj",
+        "projectPath": "D:\\Projects\\PERSONAL\\nexion\\backend\\BasicBillingBackend\\BasicBilling.API\\BasicBilling.API.csproj",
         "packagesPath": "C:\\Users\\Mauri\\.nuget\\packages\\",
-        "outputPath": "d:\\Projects\\PERSONAL\\nexion\\backend\\BasicBillingBackend\\BasicBilling.API\\obj\\",
+        "outputPath": "D:\\Projects\\PERSONAL\\nexion\\backend\\BasicBillingBackend\\BasicBilling.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mauri\\AppData\\Roaming\\NuGet\\NuGet.Config",

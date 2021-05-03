@@ -305,7 +305,6 @@ D:\Projects\PERSONAL\nexion\backend\BasicBillingBackend\BasicBilling.API\bin\Deb
 D:\Projects\PERSONAL\nexion\backend\BasicBillingBackend\BasicBilling.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Projects\PERSONAL\nexion\backend\BasicBillingBackend\BasicBilling.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Projects\PERSONAL\nexion\backend\BasicBillingBackend\BasicBilling.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\Projects\PERSONAL\nexion\backend\BasicBillingBackend\BasicBilling.API\obj\Debug\netcoreapp3.1\BasicBilling.API.csprojAssemblyReference.cache
 D:\Projects\PERSONAL\nexion\backend\BasicBillingBackend\BasicBilling.API\obj\Debug\netcoreapp3.1\BasicBilling.API.AssemblyInfoInputs.cache
 D:\Projects\PERSONAL\nexion\backend\BasicBillingBackend\BasicBilling.API\obj\Debug\netcoreapp3.1\BasicBilling.API.AssemblyInfo.cs
 D:\Projects\PERSONAL\nexion\backend\BasicBillingBackend\BasicBilling.API\obj\Debug\netcoreapp3.1\BasicBilling.API.csproj.CoreCompileInputs.cache
